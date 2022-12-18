@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=IBM+Plex+Mono:wght@100&family=Koulen&family=Quicksand:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+body {
+    font-family: "Chakra Petch", sans-serif !important;
+    background-color: #0c1220 !important;
+    overflow-x: hidden !important;
+}
+nav {
+    background-color: #262a35;
+    padding: 20px !important;
+    position: sticky !important;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: aqua !important;
+}
+.nav-link {
+    color: #747474 !important;
+}
+.nav-link:hover {
+    color: white !important;
+}
+.sidebar {
+    transition: 0.3s;
+    margin: 0;
+    padding: 10px 14px;
+    width: 200px;
+    background-color: #262a35;
+    position: fixed;
+    height: 100%;
+}
+.sidebar.close {
+    width: 70px;
+    padding: 0;
+}
+.sidebar.close .side-link {
+   display: none;
+   white-space: nowrap;
+}
+.sidebar.close i {
+    margin-left: 15px !important;
+}
+.sidebar.close .hr {
+    width: 2em;
+}
+.brand {
+    padding: 15px;
+    color: aqua;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.hr {
+    height: 2px;
+    width: 10em;
+    background-color: rgb(63, 63, 63);
+    justify-content: center;
+}
+.sidebar a{
+    transition: 0.2s;
+    font-size: 17px;
+    color: #747474 !important;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #1d2029;
+    color: aqua !important;
+    border-radius: 10px;
+}
+.sidebar .active {
+    background-color: #1d2029;
+    color: aqua !important;
+    border-radius: 10px;
+}
+.dropdown-menu {
+    background-color: #1d2029 !important;
+}
+.dropdown-item:hover {
+    background-color: #262a35 !important;
+}
+.slide-close {
+    margin-top: 30px;
+    background-color: #1d2029;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #747474;
+}
+
+/* Banner */
+#banner {
+    padding: 50px 0;
+    margin-left: 200px;
+}
+.border-container {
+    background-color: #1d2029;
+    padding: 20px;
+    border-radius: 6px;
+}
+/* Profile */
+.upload-avatar {
+    transition: 0.3s;
+    color: #747474;
+    border: none;
+    border: 1px solid #747474;
+    background-color: #1d2029;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+}
+.upload-avatar:hover {
+    background-color: #ffffff0c;
+    color: #747474;
+}
+.input-prf {
+    margin-bottom: 10px;
+}
+.form-control {
+    padding: 10px !important;
+    margin-top: 7px !important;
+    background-color: #0c1220 !important;
+    color: aqua !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.upload {
+    transition: 0.3s;
+    color: aqua;
+    border: none;
+    border: 1px solid aqua;
+    background-color: #0c1220;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+}
+.upload:hover {
+    background-color: aqua;
+    color: #0c1220;
+}
+.label {
+    color: #747474;
+}
+.delete-account {
+    transition: 0.3s;
+    padding: 10px 40px;
+    border: none;
+    background-color: #1d2029;
+    color: #ff3e3e;
+    border: 1px solid #ff3e3e;
+    border-radius: 5px;
+}
+.delete-account:hover {
+    background-color: #ff3e3e2a;
+}
+/* CTF */
+.card {
+    border: none !important;
+    background-color: #0c1220 !important;
+    margin: 20px;
+}
+
+.card-body {
+    border-radius: 20px !important;
+    background-color: #262a35 !important;
+    color: aqua !important;
+}
+
+.card-title {
+    padding: 20px;
+    background-color: #0c1220 !important;
+    border-radius: 0 0 20px 20px !important;
+}
+
+.header {
+    padding: 30px;
+    background-color: #262a35;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 2px;
+    width: 4rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content {
+    color: aqua;
+    padding: 20px;
+    border-left: 2px solid #262a35;
+}
+
+.text-primary {
+    color: aqua !important;
+}
+
+.btn-primary {
+    background-color: #262a35 !important;
+    border: none !important;
+    border: 1px solid aqua !important;
+    color: aqua !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 255, 255, 0.048) !important;
+}
+/* LEADERBOARD  */
+.table {
+    background-color: #0c1220 !important;
+    color: aqua !important;
+    border: 1px solid #747474 !important;
+}
+thead {
+    color: white !important;
+}
+th {
+    padding: 20px !important;
+}
+tr {
+    transition: 0.2s !important;
+}
+tr:hover {
+    background-color: rgba(0, 255, 255, 0.062) !important;
+}
+/* EXERCISE LAB */
+.modal-content {
+    background-color: #262a35 !important;
+}
+.btn-modal {
+    transition: 0.3s !important;
+    padding: 30px 60px 30px 60px !important;
+    background-color: #0c1220 !important;
+    color: aqua !important;
+    border: 1px solid aqua !important;
+}
+.btn-modal:hover, .btn-flag:hover {
+    background-color: rgba(0, 255, 255, 0.048) !important;
+}
+.modal-header {
+    background-color: #262a35 !important;
+    color: aqua;
+}
+.modal-body {
+    background-color: #1d2029 !important;
+    color: #cacaca !important;
+}
+.modal-body a {
+    background-color: #6c757d !important;
+    padding: 10px 25px 10px 25px;
+    color: white !important;
+    text-decoration: none;
+}
+.modal-footer {
+    background-color: #262a35 !important;
+}
+.btn-flag {
+    transition: 0.3s !important;
+    padding: 10px 20px 10px 20px !important;
+    background-color: #0c1220 !important;
+    color: aqua !important;
+    border: none !important;
+    border-radius: 5px;
+}
